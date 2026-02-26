@@ -24,21 +24,6 @@
 [![bash](https://img.shields.io/badge/requires-bash%204.0%2B-lightgrey)](#)
 [![platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Git%20Bash-brightgreen)](#)
 [![license](https://img.shields.io/badge/license-MIT-green)](#)
----
-```
-   ______   __         ______   __    __  _______   __       __   ______    ______   ________  ________  _______
-  /      \ /  |       /      \ /  |  /  |/       \ /  \     /  | /      \  /      \ /        |/        |/       \
- /$$$$$$  |$$ |      /$$$$$$  |$$ |  $$ |$$$$$$$  |$$  \   /$$ |/$$$$$$  |/$$$$$$  |$$$$$$$$/ $$$$$$$$/ $$$$$$$  |
- $$ |  $$/ $$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$$  \ /$$$ |$$ |__$$ |$$ \__$$/    $$ |   $$ |__    $$ |__$$ |
- $$ |      $$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$$$  /$$$$ |$$    $$ |$$      \    $$ |   $$    |   $$    $$<
- $$ |   __ $$ |      $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ $$ $$/$$ |$$$$$$$$ | $$$$$$  |   $$ |   $$$$$/    $$$$$$$  |
- $$ \__/  |$$ |_____ $$ \__$$ |$$ \__$$ |$$ |__$$ |$$ |$$$/ $$ |$$ |  $$ |/  \__$$ |   $$ |   $$ |_____ $$ |  $$ |
- $$    $$/ $$       |$$    $$/ $$    $$/ $$    $$/ $$ | $/  $$ |$$ |  $$ |$$    $$/    $$ |   $$       |$$ |  $$ |
-  $$$$$$/  $$$$$$$$/  $$$$$$/   $$$$$$/  $$$$$$$/  $$/      $$/ $$/   $$/  $$$$$$/     $$/    $$$$$$$$/ $$/   $$/
-
-```
-
-
 ## What is this?
 
 `cloudmaster` is an interactive, terminal-based training tool for learning **Cloud Infrastructure, Linux Security, and Web Deployment** specifically designed for the KEA Datamatiker Technology 2 Exam.
