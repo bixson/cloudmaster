@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cloudmaster
+  labels:
+    app: cloudmaster
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cloudmaster
+  template:
+    metadata:
+      labels:
+        app: cloudmaster
+    spec:
+      containers:
+        - name: cloudmaster
+          image: ghcr.io/bixson/cloudmaster:latest
+          ports:
+            - containerPort: 7681
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "500m"
+              memory: "256Mi"

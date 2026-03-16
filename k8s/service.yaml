@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: cloudmaster
+  labels:
+    app: cloudmaster
+spec:
+  selector:
+    app: cloudmaster
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 7681
+  type: ClusterIP
